@@ -1,0 +1,14 @@
+.common-inner{max-width: 1902px;margin: 0 auto;
+    min-width: 980px;
+}
+
+
+.sc-ownership .owner-box:nth-child(1){background-color: #c4e5ae;}
+
+.sc-ownership .owner-box:nth-child(2){background-color: #a6c5e6;}
+
+.sc-ownership .owner-box:nth-child(3){background-color: #ffdaff;}
+
+.footer{background-color: #000;}
+
+.blind{ position: absolute;height: 1px;width: 1px;overflow: hidden;clip:rect(0,0,0,0) ;}
