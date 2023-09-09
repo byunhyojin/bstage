@@ -1,5 +1,10 @@
-.common-inner{max-width: 1902px;margin: 0 auto;
-    min-width: 980px;
+.common-inner{width: 1902px;margin: 0 auto;
+    
+}
+.wrapper{
+ 
+    overflow: hidden;
+ 
 }
 
 

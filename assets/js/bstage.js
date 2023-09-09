@@ -20,14 +20,15 @@ $(function () {
             disableOnInteraction: false,
           },
        })
-     
-    $('.nav-pro').hover(function (e) {
-        e.preventDefault();
+
     
-    $('.sub-first').toggleClass('on');
-  
- 
-    })
+     
+    $('.nav-items').hover(function(){
+    $(this).find('.nav-sub').stop().slideDown();},
+    function(){ 
+        $(this).find('.nav-sub').stop().slideUp();}
+        )
+
     $('.nav-sol').hover(function (e) {
         e.preventDefault();
     
@@ -35,9 +36,11 @@ $(function () {
   
  
     })
-    $('.language-box').hover(function(e){
-        e.preventDefault();
-        $('.lang-sub').toggleClass('on')
+    $('.language').hover(function(){
+      
+        $(this).find('.lang-sub').stop().slideDown();
+    },function(){
+        $(this).find('.lang-sub').stop().slideUp();
     })
     
     $('.owner-box').each(function(index,element){
