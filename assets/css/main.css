@@ -126,9 +126,9 @@ font-weight: 700;}
 /*together*/
 .sc-together{margin-top: 100px; }
 .sc-together .text-box{ display: flex; flex-direction: column; align-items: center;}
-.sc-together .text-box .headline{ font-size: 92px; line-height: 1.12;letter-spacing: -.03em; }
-.sc-together .text-box .desc-box{ display: flex; flex-direction: column; align-items: center;   color: #222; font-size: 20px; margin-top: 25px;letter-spacing: -.02em; margin-bottom:106px;}
-.sc-together .slide-list{width: 80%;; display: flex; justify-content: center; flex-wrap: wrap;margin-bottom: 118px; margin-left: 110px;}
+.sc-together .text-box .headline{ font-size: 92px; line-height: 1.12;letter-spacing: -.03em; margin-right: 110px; }
+.sc-together .text-box .desc-box{margin-right: 110px;  display: flex; flex-direction: column; align-items: center;   color: #222; font-size: 20px; margin-top: 25px;letter-spacing: -.02em; margin-bottom:106px;}
+.sc-together .slide-list{width: 80%;; display: flex; justify-content: center; flex-wrap: wrap;margin-bottom: 118px; margin-left: 103px;}
 .sc-together .slide-item{margin-right:28px;width: 224px; border-radius: 16px; margin-bottom: 28px;background-color:#f8f8f8;display: flex;align-items: center;justify-content: center;}
 .sc-together .slide-item img{width: 158px;height: 137px; }
 
