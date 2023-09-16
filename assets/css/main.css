@@ -51,7 +51,7 @@
 
 .sc-owners{ margin:100px 0 200px 0}
 .sc-owners .common-inner{overflow: hidden;}
-.sc-owners .text{ display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.sc-owners .text{ display: flex; flex-direction: column; justify-content: center; align-items: center; margin-right: 160px; }
 .sc-owners .text .des{font-size: 24px; margin-top: 50px; color: #222; margin-bottom: 100px;}
 .sc-owners .text .headline{font-size: 95px;
 font-weight: 700;}
